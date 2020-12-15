@@ -65,8 +65,15 @@ One hot encoding
 
 # Models & Finetuning
 To validate our models & finetuning, we use the classical time series split.
-Validation 1 : 2020-11-29 => 2020-12-04
-Validation 2 : 2020-12-04 => 2020-12-10
+Validation 1 : 2020-11-11 => 2020-11-17
+Validation 2 : 2020-11-17 => 2020-11-23
+Validation 3 : 2020-11-23 => 2020-11-29
+Validation 1_prime : 2020-11-29 => 2020-12-04
+Validation 2_prime : 2020-12-04 => 2020-12-10
+
+The validation 1/2/3 were made to choose the models, find the grid for hyperparameters (to avoid long grid search for the last validation) 
+and the strategy for stacking.
+The validation 1_prime, 2_prime were made to evaluate the stacking's strategy, and find the final optimal hyperparameters.
 
 ## Models
 We compared many machine learning models (thank to the Pycaret Library), one deep learning model (WaveNet) &
