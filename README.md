@@ -165,5 +165,5 @@ it was because of the missing data during the 9th december (remember that for so
 the last week value), then our models was trying to predict with one feature missing (which was very important)
 We could have use the 2th december but it was too late ...
 
-We will released the final results as soon as we have them.
+Final rank : 2nd.
 (There is also a readme on the notebook folder with a brief description of each notebooks)
